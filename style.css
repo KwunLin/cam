@@ -28,10 +28,6 @@ html, body{
     bottom: 30px;
     left: calc(50% - 100px);
 }
-video {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-}
 .taken{
     height: 100px!important;
     width: 100px!important;
