@@ -5,6 +5,8 @@ const constraints = {
       { "ideal": "environment" }
   }
 };
+const stream = await navigator.mediaDevices.getUserMedia(constraints);
+
     // Define constants
 const cameraView = document.querySelector("#camera--view"),
     cameraOutput = document.querySelector("#camera--output"),
