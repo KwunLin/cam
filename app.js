@@ -1,13 +1,6 @@
 // Set constraints for the video stream
-const constraints = {
- "video": {
-   "facingMode": 
-      { "ideal": "environment" }
-  }
-};
-const stream = await navigator.mediaDevices.getUserMedia(constraints);
-
-    // Define constants
+var constraints = { video: { facingMode: "environment" }, audio: false };
+// Define constants
 const cameraView = document.querySelector("#camera--view"),
     cameraOutput = document.querySelector("#camera--output"),
     cameraSensor = document.querySelector("#camera--sensor"),
